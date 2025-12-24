@@ -51,7 +51,7 @@ export default function ContactMe() {
             className='flex space-x-4 pt-2'
           >
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/manoj-the-dev"
               target="_blank"
               rel="noopener noreferrer"
               className='w-12 h-12 bg-gray-800/50 border border-gray-700/50 rounded-lg flex items-center justify-center text-white/70 hover:text-[#E48A57] hover:bg-gray-800/80 hover:border-[#E48A57]/40 transition-all duration-300'
@@ -59,7 +59,7 @@ export default function ContactMe() {
               <FaLinkedin size={20} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/manojkm/"
               target="_blank"
               rel="noopener noreferrer"
               className='w-12 h-12 bg-gray-800/50 border border-gray-700/50 rounded-lg flex items-center justify-center text-white/70 hover:text-[#E48A57] hover:bg-gray-800/80 hover:border-[#E48A57]/40 transition-all duration-300'

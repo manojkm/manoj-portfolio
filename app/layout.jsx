@@ -16,6 +16,14 @@ const geist = Geist({
 export const metadata = {
   title: "Manoj KM - Frontend Developer Portfolio",
   description: "Frontend Developer passionate about creating beautiful, responsive, and user-friendly web experiences using modern technologies",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
   icons: {
     icon: [
       {
