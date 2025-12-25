@@ -34,52 +34,52 @@ const skillCategories = [
   {
     name: "Frontend Development",
     skills: [
-      { id: 1, name: 'React', icon: <FaReact size={48} />, color: '#61DAF8', level: 90 },
-      { id: 2, name: 'Next.js', icon: <SiNextdotjs size={48} />, color: '#FAFAFA', level: 88 },
-      { id: 4, name: 'JavaScript', icon: <SiJavascript size={48} />, color: '#F7DF1E', level: 95 },
-      { id: 5, name: 'HTML5', icon: <SiHtml5 size={48} />, color: '#E34F26', level: 95 },
-      { id: 6, name: 'CSS3', icon: <SiCss3 size={48} />, color: '#1572B6', level: 95 },
-      { id: 7, name: 'Tailwind CSS', icon: <RiTailwindCssFill size={48} />, color: '#38BDF8', level: 90 },
-      { id: 3, name: 'TypeScript', icon: <SiTypescript size={48} />, color: '#3178C6', level: 85 },
+      { id: 1, name: 'React', icon: <FaReact size={48} />, color: '#61DAF8', level: 75 },
+      { id: 2, name: 'Next.js', icon: <SiNextdotjs size={48} />, color: '#FAFAFA', level: 75 },
+      { id: 4, name: 'JavaScript', icon: <SiJavascript size={48} />, color: '#F7DF1E', level: 75 },
+      { id: 5, name: 'HTML5', icon: <SiHtml5 size={48} />, color: '#E34F26', level: 75 },
+      { id: 6, name: 'CSS3', icon: <SiCss3 size={48} />, color: '#1572B6', level: 75 },
+      { id: 7, name: 'Tailwind CSS', icon: <RiTailwindCssFill size={48} />, color: '#38BDF8', level: 75 },
+      { id: 3, name: 'TypeScript', icon: <SiTypescript size={48} />, color: '#3178C6', level: 75 },
 
-      { id: 8, name: 'Redux Toolkit', icon: <SiRedux size={48} />, color: '#764ABC', level: 85 },
-      { id: 24, name: 'GSAP', icon: <FaCode size={48} />, color: '#88CE02', level: 85 },
-      { id: 25, name: 'Framer Motion', icon: <SiFramer size={48} />, color: '#0055FF', level: 90 },
-      { id: 26, name: 'Sass', icon: <SiSass size={48} />, color: '#CC6699', level: 90 },
-      { id: 27, name: 'Bootstrap', icon: <SiBootstrap size={48} />, color: '#7952B3', level: 90 },
-      { id: 28, name: 'Shadc / Radix UI', icon: <SiRadixui size={48} />, color: '#FFFFFF', level: 85 },
+      { id: 8, name: 'Redux Toolkit', icon: <SiRedux size={48} />, color: '#764ABC', level: 75 },
+      { id: 24, name: 'GSAP', icon: <FaCode size={48} />, color: '#88CE02', level: 75 },
+      { id: 25, name: 'Framer Motion', icon: <SiFramer size={48} />, color: '#0055FF', level: 75 },
+      { id: 26, name: 'Sass', icon: <SiSass size={48} />, color: '#CC6699', level: 75 },
+      { id: 27, name: 'Bootstrap', icon: <SiBootstrap size={48} />, color: '#7952B3', level: 75 },
+      { id: 28, name: 'Shadc / Radix UI', icon: <SiRadixui size={48} />, color: '#FFFFFF', level: 75 },
     ]
   },
   {
     name: "CMS & E-Commerce",
     skills: [
-      { id: 9, name: 'WordPress', icon: <SiWordpress size={48} />, color: '#21759B', level: 95 },
-      { id: 10, name: 'Shopify', icon: <SiShopify size={48} />, color: '#96BF48', level: 90 },
-      { id: 11, name: 'Magento', icon: <SiMagento size={48} />, color: '#EE672F', level: 85 },
+      { id: 9, name: 'WordPress', icon: <SiWordpress size={48} />, color: '#21759B', level: 75 },
+      { id: 10, name: 'Shopify', icon: <SiShopify size={48} />, color: '#96BF48', level: 75 },
+      { id: 11, name: 'Magento', icon: <SiMagento size={48} />, color: '#EE672F', level: 75 },
     ]
   },
   {
     name: "UI/UX Design",
     skills: [
-      { id: 14, name: 'Figma', icon: <SiFigma size={48} />, color: '#F24E1E', level: 90 },
-      { id: 15, name: 'Adobe XD', icon: <SiAdobexd size={48} />, color: '#FF61F6', level: 85 },
-      { id: 16, name: 'Adobe Photoshop', icon: <SiAdobe size={48} />, color: '#31A8FF', level: 90 },
-      { id: 17, name: 'Adobe Illustrator', icon: <SiAdobe size={48} />, color: '#FF9A00', level: 88 },
+      { id: 14, name: 'Figma', icon: <SiFigma size={48} />, color: '#F24E1E', level: 75 },
+      { id: 15, name: 'Adobe XD', icon: <SiAdobexd size={48} />, color: '#FF61F6', level: 75 },
+      { id: 16, name: 'Adobe Photoshop', icon: <SiAdobe size={48} />, color: '#31A8FF', level: 75 },
+      { id: 17, name: 'Adobe Illustrator', icon: <SiAdobe size={48} />, color: '#FF9A00', level: 75 },
     ]
   },
   {
     name: "Backend & Database",
     skills: [
-      { id: 12, name: 'Prisma', icon: <SiPrisma size={48} />, color: '#2D3748', level: 85 },
-      { id: 13, name: 'PostgreSQL', icon: <SiPostgresql size={48} />, color: '#336791', level: 80 },
-      { id: 18, name: 'Supabase', icon: <SiSupabase size={48} />, color: '#3ECF8E', level: 80 },
-      { id: 19, name: 'MySQL', icon: <SiMysql size={48} />, color: '#4479A1', level: 85 },
-      { id: 20, name: 'PHP', icon: <SiPhp size={48} />, color: '#777BB4', level: 90 },
-      { id: 21, name: 'Docker', icon: <SiDocker size={48} />, color: '#2496ED', level: 85 },
-      { id: 22, name: 'MongoDB', icon: <SiMongodb size={48} />, color: '#47A248', level: 85 },
-      { id: 23, name: 'Mongoose', icon: <SiMongodb size={48} />, color: '#880000', level: 80 },
-      { id: 29, name: 'Node.js', icon: <SiNodedotjs size={48} />, color: '#339933', level: 85 },
-      { id: 30, name: 'Express.js', icon: <SiExpress size={48} />, color: '#FFFFFF', level: 85 },
+      { id: 12, name: 'Prisma', icon: <SiPrisma size={48} />, color: '#2D3748', level: 75 },
+      { id: 13, name: 'PostgreSQL', icon: <SiPostgresql size={48} />, color: '#336791', level: 75 },
+      { id: 18, name: 'Supabase', icon: <SiSupabase size={48} />, color: '#3ECF8E', level: 75 },
+      { id: 19, name: 'MySQL', icon: <SiMysql size={48} />, color: '#4479A1', level: 75 },
+      { id: 20, name: 'PHP', icon: <SiPhp size={48} />, color: '#777BB4', level: 75 },
+      { id: 21, name: 'Docker', icon: <SiDocker size={48} />, color: '#2496ED', level: 75 },
+      { id: 22, name: 'MongoDB', icon: <SiMongodb size={48} />, color: '#47A248', level: 75 },
+      { id: 23, name: 'Mongoose', icon: <SiMongodb size={48} />, color: '#880000', level: 75 },
+      { id: 29, name: 'Node.js', icon: <SiNodedotjs size={48} />, color: '#339933', level: 75 },
+      { id: 30, name: 'Express.js', icon: <SiExpress size={48} />, color: '#FFFFFF', level: 75 },
     ]
   }
 ];
