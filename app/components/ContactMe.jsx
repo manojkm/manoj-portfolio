@@ -107,7 +107,7 @@ export default function ContactMe() {
             className='pt-8 md:pt-12 text-center'
           >
             <p className='text-white/40 text-xs sm:text-sm'>
-              Built by Manoj KM | Last Updated: December 5, 2025
+              Built by Manoj KM | Last Updated: December 6, 2025
             </p>
           </motion.div>
         </div>
