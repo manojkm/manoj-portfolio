@@ -48,8 +48,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geist.className} overflow-x-hidden`}>
-      <body className="overflow-x-hidden bg-black relative">
+    <html lang="en" className={`${geist.className} overflow-x-hidden`} style={{ colorScheme: 'dark' }}>
+      <body className="overflow-x-hidden bg-black relative" style={{ backgroundColor: '#000000' }}>
         {/* Fixed dotted background for entire site */}
         <div 
           className="fixed inset-0 pointer-events-none z-0"
