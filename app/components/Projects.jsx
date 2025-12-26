@@ -36,6 +36,7 @@ const allProjects = {
 
     { name: "Trendy Men - UK", url: "https://www.trendymen.co.uk", platform: "Shopify" },
     { name: "Ferris Music - UK", url: "https://ferrismusic.com", platform: "Shopify" },
+    { name: "TekEir - UK", url: "https://www.tekeir.com", platform: "Shopify" },
     { name: "Renewables Merchant - UK", url: "https://www.renewablesmerchant.co.uk", platform: "Magento" },
     { name: "Performance Lights - UK", url: "https://www.performancelights.co.uk", platform: "Magento" },
     { name: "W&E Shirley Ltd - UK", url: "https://www.shirleyagri.com", platform: "Magento" },
