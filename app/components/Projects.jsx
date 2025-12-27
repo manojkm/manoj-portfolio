@@ -84,6 +84,7 @@ const allProjects = {
   webApplications: [
     { name: "Horizon Claim Management", url: "https://figma.fun/vcdSeH", platform: "Figma" },
     { name: "Vehicle Inspection Mobile App - Vision", url: "https://figma.fun/3diGhr", platform: "Figma" },
+    { name: "Vehicle Claims Reporter Mobile App - Vision", url: "https://figma.fun/gqv8xW", platform: "Figma" },
     { name: "STARR Insurance", url: "https://figma.fun/hhtcqQ", platform: "Figma" },
   ]
 }
