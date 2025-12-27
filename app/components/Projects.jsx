@@ -82,8 +82,9 @@ const allProjects = {
     { name: "Green Quantum Limited - US", url: "https://greenquantum.co", platform: "WordPress" },
   ],
   webApplications: [
-    { name: "Horizon Claim Management", url: "https://figma.fun/vcdSeH" },
-    { name: "STARR Insurance", url: "https://figma.fun/hhtcqQ" },
+    { name: "Horizon Claim Management", url: "https://figma.fun/vcdSeH", platform: "Figma" },
+    { name: "Vehicle Inspection Mobile App - Vision", url: "https://figma.fun/3diGhr", platform: "Figma" },
+    { name: "STARR Insurance", url: "https://figma.fun/hhtcqQ", platform: "Figma" },
   ]
 }
 
@@ -223,7 +224,7 @@ export default function Projects() {
                   ecommerce: 'E-Commerce',
                   ebay: 'eBay',
                   business: 'Business',
-                  webApplications: 'Web Applications'
+                  webApplications: 'Web/Mobile Apps'
                 }
                 const count = allProjects[category].length
                 if (count === 0) return null
