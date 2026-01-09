@@ -85,7 +85,7 @@ export default function Hero() {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              href='/assets/resume/resume_frontend_developer_manojkm_v1.pdf'
+              href='/assets/resume/resume_frontend_developer_manojkm_v2.pdf'
               download
               whileHover={{
                 scale: 1.05,

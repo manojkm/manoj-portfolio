@@ -78,7 +78,7 @@ export default function ContactMe() {
 
           {/* Download CV Button */}
           <motion.a
-            href='/assets/resume/resume_frontend_developer_manojkm_v1.pdf'
+            href='/assets/resume/resume_frontend_developer_manojkm_v2.pdf'
             download
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

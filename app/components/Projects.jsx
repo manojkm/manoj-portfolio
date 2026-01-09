@@ -80,12 +80,15 @@ const allProjects = {
     { name: "Stack It High NI - UK", url: "https://www.stackithighni.co.uk", platform: "WordPress" },
     { name: "Keohane Consulting - IRE", url: "https://www.keohane.ie", platform: "WordPress" },
     { name: "Green Quantum Limited - US", url: "https://greenquantum.co", platform: "WordPress" },
+    { name: "GoFly Holidays", url: "https://goflyholidays.com/", platform: "WordPress" },
+    { name: "Patlers", url: "https://petlers.com/", platform: "WordPress" },
   ],
   webApplications: [
     { name: "Horizon Claim Management", url: "https://figma.fun/vcdSeH", platform: "Figma" },
     { name: "Vehicle Inspection Mobile App - Vision", url: "https://figma.fun/3diGhr", platform: "Figma" },
     { name: "Vehicle Claims Reporter Mobile App - Vision", url: "https://figma.fun/gqv8xW", platform: "Figma" },
     { name: "STARR Insurance", url: "https://figma.fun/hhtcqQ", platform: "Figma" },
+    { name: "KBM Resorts", url: "https://figma.fun/3gJdgr", platform: "Figma" },
   ]
 }
 
@@ -225,7 +228,7 @@ export default function Projects() {
                   ecommerce: 'E-Commerce',
                   ebay: 'eBay',
                   business: 'Business',
-                  webApplications: 'Web/Mobile Apps'
+                  webApplications: 'React/NextJS Apps'
                 }
                 const count = allProjects[category].length
                 if (count === 0) return null
