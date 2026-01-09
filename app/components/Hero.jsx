@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
-import profilePic from '../../public/assets/pic-no-bg.png'
+import profilePic from '../../public/assets/profile_pic_manoj.png'
 import { motion } from 'framer-motion'
 // Need to change the fonts
 
@@ -65,11 +65,11 @@ export default function Hero() {
           >
             {/* Glowing ring effect for mobile */}
             <div className='absolute inset-0 rounded-full bg-gradient-to-r from-[#E48A57] via-[#DBAF6E] to-[#98B4CE] blur-2xl opacity-40 animate-pulse md:hidden'></div>
-            <div className='relative'>
+            <div className='relative mx-auto w-[150px] h-[150px] sm:w-[220px] sm:h-[220px] md:w-[220px] md:h-[220px] lg:w-[220px] lg:h-[220px]'>
               <Image
                 src={profilePic}
                 alt='profile picture'
-                className='h-auto w-auto mx-auto max-w-[150px] sm:max-w-[220px] md:max-w-[300px] lg:max-w-[380px] drop-shadow-[0_0_40px_rgba(228,138,87,0.4)]'
+                className='rounded-full drop-shadow-[0_0_40px_rgba(228,138,87,0.4)] object-cover w-full h-full'
               />
             </div>
           </motion.div>
