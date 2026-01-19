@@ -29,6 +29,7 @@ import { FaCode } from "react-icons/fa";
 import { SiRadixui } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
+import { SiAngular } from "react-icons/si";
 
 const skillCategories = [
   {
@@ -36,6 +37,7 @@ const skillCategories = [
     skills: [
       { id: 1, name: 'React', icon: <FaReact size={48} />, color: '#61DAF8', level: 75 },
       { id: 2, name: 'Next.js', icon: <SiNextdotjs size={48} />, color: '#FAFAFA', level: 75 },
+      { id: 31, name: 'Angular', icon: <SiAngular size={48} />, color: '#DD0031', level: 75 },
       { id: 4, name: 'JavaScript', icon: <SiJavascript size={48} />, color: '#F7DF1E', level: 75 },
       { id: 5, name: 'HTML5', icon: <SiHtml5 size={48} />, color: '#E34F26', level: 75 },
       { id: 6, name: 'CSS3', icon: <SiCss3 size={48} />, color: '#1572B6', level: 75 },

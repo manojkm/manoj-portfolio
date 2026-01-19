@@ -78,10 +78,13 @@ const allProjects = {
     { name: "Heatiq - UK", url: "https://www.heatiq.co.uk", platform: "WordPress" },
     { name: "DHS Trucking - US", url: "https://www.dhstruck.com", platform: "WordPress" },
     { name: "Stack It High NI - UK", url: "https://www.stackithighni.co.uk", platform: "WordPress" },
+    { name: "Arasys Aesthetics Clinic - UK", url: "https://arasys.spiderdns.co.uk", platform: "WordPress" },
     { name: "Keohane Consulting - IRE", url: "https://www.keohane.ie", platform: "WordPress" },
     { name: "Green Quantum Limited - US", url: "https://greenquantum.co", platform: "WordPress" },
-    { name: "GoFly Holidays", url: "https://goflyholidays.com/", platform: "WordPress" },
-    { name: "Patlers", url: "https://petlers.com/", platform: "WordPress" },
+    { name: "GoFly Holidays", url: "https://goflyholidays.com", platform: "WordPress" },
+    { name: "Patlers", url: "https://petlers.com", zzatform: "WordPress" },
+    { name: "Lanweys", url: "https://lanweys.in", platform: "WordPress" },
+    { name: "Sri Lanka Luxury Property", url: "https://srilankaluxuryproperty.com", platform: "WordPress" },
   ],
   webApplications: [
     { name: "Horizon Claim Management", url: "https://figma.fun/vcdSeH", platform: "Figma" },
@@ -227,7 +230,7 @@ export default function Projects() {
                   ecommerce: 'E-Commerce',
                   ebay: 'eBay',
                   business: 'Business',
-                  webApplications: 'React/NextJS Apps'
+                  webApplications: 'React / NextJS / Angular Web Apps'
                 }
                 const count = allProjects[category].length
                 if (count === 0) return null
