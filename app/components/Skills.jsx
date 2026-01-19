@@ -30,6 +30,10 @@ import { SiRadixui } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiAngular } from "react-icons/si";
+import { SiWoocommerce } from "react-icons/si";
+import { FaStore } from "react-icons/fa";
+import { SiSquarespace } from "react-icons/si";
+import { SiBigcommerce } from "react-icons/si";
 
 const skillCategories = [
   {
@@ -58,6 +62,10 @@ const skillCategories = [
       { id: 9, name: 'WordPress', icon: <SiWordpress size={48} />, color: '#21759B', level: 75 },
       { id: 10, name: 'Shopify', icon: <SiShopify size={48} />, color: '#96BF48', level: 75 },
       { id: 11, name: 'Magento', icon: <SiMagento size={48} />, color: '#EE672F', level: 75 },
+      { id: 32, name: 'WooCommerce', icon: <SiWoocommerce size={48} />, color: '#96588A', level: 75 },
+      { id: 33, name: 'EKM Powershop', icon: <FaStore size={48} />, color: '#026AC2', level: 75 },
+      { id: 34, name: 'Squarespace', icon: <SiSquarespace size={48} />, color: '#FFFFFF', level: 75 },
+      { id: 35, name: 'BigCommerce', icon: <SiBigcommerce size={48} />, color: '#E0E0E0', level: 75 },
     ]
   },
   {
