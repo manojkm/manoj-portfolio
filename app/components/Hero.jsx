@@ -51,7 +51,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className='text-xs sm:text-sm md:text-base lg:text-md text-center max-w-[90%] sm:max-w-[500px] mx-auto mt-3 sm:mt-6 md:mt-8 text-white/90 leading-relaxed space-y-3 sm:space-y-4'
         >
-          <p className='text-white/60 leading-relaxed'>I'm a frontend web developer with 10+ years of experience building responsive websites, e-commerce websites, and web applications.</p>
+          <p className='text-white/60 leading-relaxed'>I'm a Front-End Developer & UI/UX Designer with 10+ years of experience building responsive websites, e-commerce websites, and web applications.</p>
           <p className='text-white/60 leading-relaxed'>My approach focuses on creating scalable, high-performing solutions tailored to both user needs and business objectives. By prioritizing performance, accessibility, and responsiveness, I strive to deliver experiences that not only engage users but also drive tangible results.</p>        </motion.p>
 
         <div className='-mt-6 sm:-mt-3 md:mt-0'>
